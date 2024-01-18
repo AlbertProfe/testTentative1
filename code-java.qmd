@@ -7,3 +7,6 @@ Here we will talk about java se
 
 
 {{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+this is a video
+
