@@ -1,0 +1,90 @@
+---
+title: "testTentative1"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+
+# Hello class
+
+## this is  cool 
+
+```java
+package org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+```
+
+qmd allow to insert <mark> code in html </mark>
+
+![This is our uml from healthy food](/images/uml.png){width="60%"}
+
+----------
+
+
+
+``` mermaid
+
+classDiagram
+
+Table "1" --* "n" Order
+Menu "1" --* "n" Order
+
+class Table{
+
++String name
+
++String description
+
++int qty
+
+}
+
+class Order{
+
++date date
+
++String orderNumber
+
++String waiter
+
++int peopleqty
+
++int totalPayment
+
++bool paid
+
++Table table
+
++Menu[] menus
+
+}
+
+class Menu{
+
++String name
+
++String totalPayment
+
++int price
+
++string conntent
+
+}
+
+```
